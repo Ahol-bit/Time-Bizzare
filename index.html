@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head">TIME</h1>
+
+    <span id="clock">Clock in here</span>
+    <br>
+    <button class="remind-button">Reminder</button>
+    <button class="live">Do you want to know how long have you lived?</button>
+    <br>
+    <span id="palaceLive" class="empty">
+        <p>Choose start date : </p> 
+        <input type='date' name='timeStart' id='timeStart'> 
+        <p>Choose your special date : </p>
+        <input type='date' name='dateTime' id='dateTime'> 
+        <button type='submit' id='submit'>Submit</button>
+    </span>
+    <span id="remind" class="empty">
+        <label for="tagTime">Choose your resurrection time : </label>
+        <br>
+        <input type="time" id="tagTime" >
+    </span>
+    <br>
+    <span id="result"></span>
+    <br>
+    <img src="img/oraora.gif" class="oraora empty">
+    <audio id="audio_play">
+        <source src="oraora.mp3" type="audio/mpeg">
+    </audio>
+    <img src="img/zawarudo.gif" class="zawarudo empty">
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

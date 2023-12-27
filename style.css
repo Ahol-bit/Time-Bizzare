@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Astloch&family=Cinzel+Decorative&family=El+Messiri&display=swap');
+
+body {
+    
+    background-color: wheat;
+    text-align: center;
+    font-family: 'Astloch', cursive;
+}
+
+h1, #clock {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 72px;
+    margin: 10px 10px;
+}
+
+#remind {
+    font-family: 'El Messiri', sans-serif;
+}
+
+#tagTime {
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+#result {
+    font-family: 'El Messiri', sans-serif;
+}
+
+input {
+    background-color: lemonchiffon;
+    border-color: rgb(190, 5, 5);
+}
+
+.empty {
+    display: none;
+}
+
+.live, .remind-button {
+    display: inline;
+    width: 290px;
+    height: 25px;
+    padding: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(163, 80, 20);
+    border: chocolate solid;
+}
+
+.oraora {
+    width: 400px;
+}
